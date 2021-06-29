@@ -1,0 +1,24 @@
+.footer{
+    z-index: 999;
+    .company-info{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        img{
+            margin-right: 20px;
+        }  
+    }
+    .footer-link {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        li{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        a{
+            color: #fff !important;
+        }
+        li:not(:last-child){
+            margin-right: 36px;
+        }
+    }
+}

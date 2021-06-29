@@ -1,0 +1,91 @@
+.homeBanner{
+    overflow: hidden;
+    height: 870px;
+    margin-bottom: 60px;
+    background-image: url(../images/index1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include md{
+        margin-top: -40px;
+    }
+    .bannerText{
+        width: 445px;
+        color: #fff;
+        .shop-btn{
+            width: 350px;
+            height: 60px;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.star-div{
+    margin-bottom: 60px !important;
+    .star-item{
+        .item-content{
+            padding: 0 110px;
+            @include md {
+                    padding: 0;
+                    margin-bottom: 32px;
+            }
+        }
+    }
+    .online-training{
+        padding: 92px 110px;
+        .content{
+            margin-bottom: 52px;
+        }
+        .training-btn{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        @include md {
+            padding: 0;
+        }
+    }
+}
+
+.product-div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    .sold-out{
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.3;
+    }
+    @include md {
+        margin-bottom: 40px;
+        padding-bottom: 0;
+        .product{
+            margin-bottom: 32px;
+        }
+    }
+}
+
+
+.feature-div{
+    margin-bottom: 60px !important;
+    @include md{
+        margin-bottom: 40px !important;
+    }
+}
+
+
+.contact-div{
+    height: 600px;
+    background-image: url(../images/index10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .subscript-div{
+        margin-top: 312px;
+        .subscript-btn{
+            height: 60px;
+        }
+    }
+}

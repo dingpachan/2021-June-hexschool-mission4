@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Perfume Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header class="header position-sticky top-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html"><img src="images/d’Perfume.png" alt="Logo"></a>
+                <div class="d-flex align-items-center">
+                    <ul class="menu burger_btn d-flex">
+                        <li class="menu-item order-1 order-md-1">
+                            <a class="d-flex align-items-center fs-5" href="product.html" target="_blank"><i class="fas fa-store-alt d-none d-md-block me-1"></i> Product</a>
+                        </li>
+                        <li class="menu-item order-5 order-md-2">
+                            <a class="d-flex align-items-center fs-5" href="login.html" target="_blank"><i class="fas fa-user d-none d-md-block me-1"></i> log in</a>
+                        </li>
+                        <li class="menu-item order-2 order-md-3">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Wishlist</a>
+                        </li>
+                        <li class="menu-item order-md-4 d-none d-md-block">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-shopping-cart d-none d-md-block me-1"></i> Cart(3)</a>
+                        </li>
+                        <li class="menu-item order-3 d-block d-md-none">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Blog</a>
+                        </li>
+                        <li class="menu-item order-4 d-block d-md-none">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Contact</a>
+                        </li>
+                    </ul>
+                    <a class="d-block d-md-none position-relative text-secondary me-4" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-amount bg-primary text-white position-absolute top-0 translate-middle">3</span>
+                    </a>
+                    <a href="#" class="d-block d-md-none burger_btn text-secondary"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="brand-div bg-darkBrown d-none d-md-block">
+            <div class="container">
+                <ul class="brand-menu d-flex fs-5 text-white">
+                    <li><a href="chanel.html">CHANEL</a></li>
+                    <li><a href="#">Jo Malone</a></li>
+                    <li><a href="#">Curology</a></li>
+                    <li><a href="#">Dior</a></li>
+                    <li><a href="#">Chloe</a></li>
+                    <li><a href="#">ZARA</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row">
+            <div class="product-img col-md-8">
+                <div class="row">
+                    <img class="d-none d-md-block mb-md" src="images/product1.jpg" alt="chanel商品內容圖片">
+                    <img class="col-md-6 mb-md" src="images/product2.jpg" alt="chanel商品內容圖片">
+                    <img class="col-md-6 mb-md" src="images/product3.jpg" alt="chanel商品內容圖片">
+                    <img class="d-none d-md-block mb-lg" src="images/product1.jpg" alt="chanel商品內容圖片">
+                    <img class="d-block d-md-none" src="images/product1-long.jpg" alt="chanel商品圖">
+                </div>
+            </div>
+            <div class="product-intro col-md-4 d-flex flex-column">
+                <img class="d-block d-md-none" src="images/product1.jpg" alt="chanel商品圖">
+                <h1 class="fs-2 fw-bold">CHANEL N°5</h1>
+                <p class="fs-5 mb-4p">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
+                <span class="fs-5 mb-2p">NT$4,980</span>
+                <div class="input-group mb-2">
+                    <select class="form-select choose-amount border-darkBrown">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                    <button class="btn add-cart-btn btn-primary" type="button">加入購物車</button>
+                </div>
+                <div class="add-wishlist-div d-flex">
+                    <div class="icon"><i class="far fa-heart add-to-wishlist"></i></div>
+                    <span class="fw-bold">加入我的收藏</span>
+                </div>
+                <span class="fw-bold mb-2">商品購買須知</span>
+                <p class="mb-3p">產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。 商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。 D’Perfume 盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。</p>
+                <span class="fw-bold mb-2">退換貨須知</span>
+                <p>依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-darkBrown">
+        <div class="container">
+            <div class="d-flex justify-content-center justify-content-md-between align-items-center">
+                <div class="company-info d-flex align-items-center">
+                    <a href="index.html"><img src="images/d’Perfumewhite.png" alt="白字logo"></a>
+                    <span class="fs-7 text-white">© 2020. All Rights Reserved.</span>
+                </div>
+                <div class="d-none d-md-block">
+                    <ul class="footer-link text-white d-flex mb-0">
+                        <li><a href="product.html" target="_blank">Product</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>

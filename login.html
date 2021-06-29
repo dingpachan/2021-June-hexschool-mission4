@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Perfume Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header class="header position-sticky top-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand" href="index.html"><img src="images/d’Perfume.png" alt="Logo"></a>
+                <div class="d-flex align-items-center">
+                    <ul class="menu burger_btn d-flex">
+                        <li class="menu-item order-1 order-md-1">
+                            <a class="d-flex align-items-center fs-5" href="product.html" target="_blank"><i class="fas fa-store-alt d-none d-md-block me-1"></i> Product</a>
+                        </li>
+                        <li class="menu-item order-5 order-md-2">
+                            <a class="d-flex align-items-center fs-5" href="login.html" target="_blank"><i class="fas fa-user d-none d-md-block me-1"></i> log in</a>
+                        </li>
+                        <li class="menu-item order-2 order-md-3">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Wishlist</a>
+                        </li>
+                        <li class="menu-item order-md-4 d-none d-md-block">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-shopping-cart d-none d-md-block me-1"></i> Cart(3)</a>
+                        </li>
+                        <li class="menu-item order-3 d-block d-md-none">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Blog</a>
+                        </li>
+                        <li class="menu-item order-4 d-block d-md-none">
+                            <a class="d-flex align-items-center fs-5" href="#" target="_blank"><i class="fas fa-heart d-none d-md-block me-1"></i> Contact</a>
+                        </li>
+                    </ul>
+                    <a class="d-block d-md-none position-relative text-secondary me-4" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-amount bg-primary text-white position-absolute top-0 translate-middle">3</span>
+                    </a>
+                    <a href="#" class="d-block d-md-none burger_btn text-secondary"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="brand-div bg-darkBrown d-none d-md-block">
+            <div class="container">
+                <ul class="brand-menu d-flex fs-5 text-white">
+                    <li><a href="chanel.html">CHANEL</a></li>
+                    <li><a href="#">Jo Malone</a></li>
+                    <li><a href="#">Curology</a></li>
+                    <li><a href="#">Dior</a></li>
+                    <li><a href="#">Chloe</a></li>
+                    <li><a href="#">ZARA</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container login-div">
+        <div class="row d-flex justify-content-between align-items-center gx-5">
+            <div class="col-md-7 login-img">
+            </div>
+            <div class="col-md-5 login-fill">
+                <h2 class="fs-2 fw-bold mb-2p">Log in</h2>
+                <label for="userid" class="form-label mb-1">帳號</label>
+                <input type="email" class="form-control mb-3p" id="userid" placeholder="email@example.com">
+
+                <label for="password" class="form-label mb-1">密碼</label>
+                <input type="password" class="form-control mb-4p" id="password" placeholder="Password">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-darkBrown fw-bold">忘記密碼</a>
+                    <div class="btn-div d-flex">
+                        <div class="btn btn-outline-darkBrown me-2">註冊</div>
+                        <div class="btn btn-darkBrown">登入</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-darkBrown">
+        <div class="container">
+            <div class="d-flex justify-content-center justify-content-md-between align-items-center">
+                <div class="company-info d-flex align-items-center">
+                    <a href="index.html"><img src="images/d’Perfumewhite.png" alt="白字logo"></a>
+                    <span class="fs-7 text-white">© 2020. All Rights Reserved.</span>
+                </div>
+                <div class="d-none d-md-block">
+                    <ul class="footer-link text-white d-flex mb-0">
+                        <li><a href="product.html" target="_blank">Product</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>

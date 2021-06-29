@@ -1,0 +1,64 @@
+.member-div{
+    margin-bottom: 60px;
+    @include md{
+        margin-bottom: 40px;
+    }
+}
+
+@include md {
+    .sidebar {
+        margin-bottom: 40px;
+    }
+}
+
+.sidebar .nav-tabs.show .nav-link {
+    background-color: #fff;
+    border-radius: 0;
+    border-bottom: 2px solid #916000 !important;
+    font-weight: bold;
+    margin-bottom: 24px !important;
+    @include md {
+        margin-bottom: 0;
+    }
+}
+
+.sidebar .nav-link {
+    margin-bottom: 24px;
+    @include md{
+        margin-bottom: 0;
+    }
+    &.active{
+        background-color: #fff;
+        border-radius: 0;
+        // border-bottom: 2px solid #916000 !important;
+        text-decoration: underline;
+        text-decoration-color: #916000;
+        text-underline-position: under;
+        text-underline-offset: 4px;
+        text-decoration-thickness: 2px;
+        font-weight: bold;
+        margin-bottom: 24px;
+        @include md {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.member-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modify-profile-btn, .modify-pwd-btn{
+    width: 176px;
+}
+
+@include md{
+    .member-info{
+        margin-bottom: 40px;
+    }
+}
+
+.remind {
+    color: #A5A5A5;
+}

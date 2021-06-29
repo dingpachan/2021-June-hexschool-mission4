@@ -1,0 +1,29 @@
+.product-list{
+    .icon-list{
+        margin-top: 7px;
+        margin-bottom: 58px;
+        .icon{
+            width: 20px;
+            height: 20px;
+            color: $primary;
+            margin-right: 11px;
+        }
+        .add-to-wishlist{
+            &:hover{
+                font-weight: bold !important;
+            }
+        }
+    }
+    @include md{
+        .product-name{
+            font-size: 20px !important;
+            line-height: 30px !important;
+        }
+        .icon-list{
+            margin-bottom: 30px;
+        }
+    }
+}
+.product-pagination{
+    margin-bottom: 60px;
+}

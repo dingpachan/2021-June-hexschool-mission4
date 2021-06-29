@@ -1,0 +1,20 @@
+.login-div{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    @include md{
+        margin-top: 40px;
+        margin-bottom: 106px;
+    }
+    .login-img{
+        height: 730px;
+        background-image: url(../../images/login1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        @include md{
+            height: 220px;
+            margin-bottom: 28px;
+        }
+    }
+}
+

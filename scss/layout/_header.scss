@@ -1,0 +1,70 @@
+.header{
+    z-index: 999;
+    @include md{
+        margin-bottom: 40px;
+        position: relative;
+    }
+}
+.cart-amount{
+    border-radius: 8px;
+    font-size: 5px;
+    width: 23px;
+    height: 15px;
+    text-align: center;
+    line-height: 16px;
+}
+.menu{
+    li:not(:last-child){
+        margin-right: 32px;
+        @include md {
+            margin-right: 0;
+        }
+    }
+    li a {
+        color: $secondary;
+        @include md {
+            color: #fff;
+            display: block !important;
+            text-align: center;
+            line-height: 56px;
+            transition: all 0.2s;
+        }
+    }
+    @include md {
+        flex-direction: column;
+        // 隱藏選單高度
+        max-height: 0px;
+        // 在 pad 上隱藏選單
+        overflow: hidden;
+        // 選單下拉時的時間
+        transition: max-height 1.5s;
+        // 用絕對定位在 header 的 menu 上面
+        position: absolute;
+        z-index: 1000;
+        top: 54px;
+        left: 0;
+        right: 0;
+        background-color: #707070;
+
+        li {
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+
+.burger_btn-show .burger_btn {
+    max-height: 500px;
+}
+
+.brand-div{
+    padding: 11px 0;
+    margin-bottom: 80px;
+    .brand-menu{
+        a {
+            color: #fff;
+        }
+        li {
+            margin-right: 28px;
+        }
+    }
+}
